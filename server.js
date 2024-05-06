@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 connectDB();
 
 const corsOption = {
-        origin:"https://chat-app-silk-psi.vercel.app/",
+        origin:"https://chat-app-silk-psi.vercel.app",
         methods:"GET,POST,PUT,DELETE,PATCH,HEAD",
         credentials:true
 }
